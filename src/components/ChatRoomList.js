@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/css/ChatRoomList.css';
+
 import SectionTitle from './SectionTitle';
 import AddRoomButton from './AddRoomButton';
 import DisplayRooms from './DisplayRooms';
