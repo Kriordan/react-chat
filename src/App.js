@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './styles/css/App.css';
-import ChatRoomList from './components/ChatRoomList';
+import Sidebar from './components/Sidebar';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ChatRoomList />
+        <Sidebar />
       </div>
     );
   }

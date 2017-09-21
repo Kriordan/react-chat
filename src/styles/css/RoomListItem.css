@@ -1,0 +1,26 @@
+.RoomListItem {
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px 0;
+  position: relative;
+}
+
+.RoomListItem-deleteButton {
+  background-color: #d88292;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.RoomListItem-name {
+  margin: 0 5px 0 0;
+}
+
+.RoomListItem-description {
+  font-size: 14px;
+  margin: 0;
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/css/AddRoomButton.css';
+
 import AddRoomModal from './AddRoomModal';
 
 class AddRoomButton extends React.Component {
@@ -12,7 +14,7 @@ class AddRoomButton extends React.Component {
   };
   render() {
     return (
-      <div>
+      <div className="AddRoom-wrapper">
         <button onClick={this.toggleModal} className="AddRoom-submit">
           {this.props.text}
         </button>

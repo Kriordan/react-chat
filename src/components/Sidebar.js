@@ -1,20 +1,20 @@
 import React from 'react';
-import '../styles/css/ChatRoomList.css';
+import '../styles/css/Sidebar.css';
 
 import SectionTitle from './SectionTitle';
 import AddRoomButton from './AddRoomButton';
-import DisplayRooms from './DisplayRooms';
+import RoomList from './RoomList';
 
-class ChatRoomList extends React.Component {
+class Sidebar extends React.Component {
   render() {
     return (
-      <div className="ChatRoomList">
+      <div className="Sidebar">
         <SectionTitle>Bloc Chat</SectionTitle>
         <AddRoomButton text="New Room" />
-        <DisplayRooms />
+        <RoomList />
       </div>
     );
   }
 }
 
-export default ChatRoomList;
+export default Sidebar;
