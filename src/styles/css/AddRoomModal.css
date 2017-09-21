@@ -1,0 +1,57 @@
+.AddRoomModal-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  z-index: 100;
+}
+
+.AddRoomModal-overlay {
+  background-color: #555;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.AddRoomModal-form {
+  background-color: #efefef;
+  height: 300px;
+  left: 50%;
+  padding-top: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+.AddRoomModal-input {
+  display: block;
+  height: 40px;
+  margin: 10px auto;
+  padding: 0 5px;
+  width: 320px;
+}
+
+.AddRoomModal-button {
+  background-color: #c4d8e2;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 10px;
+  padding: 10px 0;
+  width: 150px;
+}
+
+.AddRoomModal-button--submit {
+  background-color: #c4d8e2;
+}
+
+.AddRoomModal-button--close {
+  background-color: #d88292;
+}
