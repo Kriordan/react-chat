@@ -1,6 +1,5 @@
 .Sidebar {
   background-color: #efefef;
-  flex-grow: 1;
   padding: 10px;
-  width: 20%;
+  width: 30%;
 }
