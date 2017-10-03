@@ -7,16 +7,18 @@ class AddRoomButton extends React.Component {
   state = {
     isOpen: false
   };
+  
   toggleModal = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
   };
+
   render() {
     return (
       <div className="AddRoom-wrapper">
         <button onClick={this.toggleModal} className="AddRoom-submit">
-          {this.props.text}
+          Add Room
         </button>
         <AddRoomModal show={this.state.isOpen} toggleModal={this.toggleModal} />
       </div>

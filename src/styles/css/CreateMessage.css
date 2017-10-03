@@ -1,0 +1,25 @@
+.CreateMessage-form {
+  text-align: center;
+}
+
+.CreateMessage-input {
+  height: 40px;
+  margin: 10px auto;
+  padding: 0 5px;
+  width: 80%;
+}
+
+.CreateMessage-button {
+  background-color: #c4d8e2;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 10px;
+  padding: 10px 0;
+  width: 150px;
+}
+
+.CreateMessage-button--submit {
+  background-color: #c4d8e2;
+}

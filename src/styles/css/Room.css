@@ -1,0 +1,11 @@
+.Room {
+  display: flex;
+}
+
+.Room-sidebar {
+  width: 30%;
+}
+
+.Room-messages {
+  width: 70%;
+}

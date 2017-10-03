@@ -1,5 +1,5 @@
 import React from 'react';
-import firebase from 'firebase';
+import firebase from '../firebase';
 import '../styles/css/AddRoomModal.css';
 
 class AddRoomModal extends React.Component {

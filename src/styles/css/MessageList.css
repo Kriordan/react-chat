@@ -1,0 +1,11 @@
+.MessageList-list {
+  list-style-type: none;
+  margin: 0;
+  max-height: 93vh;
+  overflow: scroll;
+  padding: 0;
+}
+
+.MessageList-list li:nth-child(even) {
+  background-color: #fef6c9;
+}

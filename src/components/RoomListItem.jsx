@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import '../styles/css/RoomListItem.css';
 import firebase from 'firebase';
 
@@ -13,11 +15,13 @@ class RoomListItem extends React.Component {
 
     return (
       <li className="RoomListItem" key={room.id}>
-        <h4 className="RoomListItem-name">{room.name}</h4>
-        <p className="RoomListItem-description">{room.description}</p>
-        <button className="RoomListItem-deleteButton" onClick={() => this.deleteRoom(room.id)}>
-          X
-        </button>
+        <Link to={`/room/${room.id}`}>
+          <h4 className="RoomListItem-name">{room.name}</h4>
+          <p className="RoomListItem-description">{room.description}</p>
+          <button className="RoomListItem-deleteButton" onClick={() => this.deleteRoom(room.id)}>
+            X
+          </button>
+        </Link>
       </li>
     );
   }

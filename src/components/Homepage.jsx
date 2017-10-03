@@ -1,9 +1,10 @@
 import React from 'react';
 import firebase from '../firebase';
-import '../styles/css/RoomList.css';
-import RoomListItem from './RoomListItem';
 
-class RoomList extends React.Component {
+import AddRoomButton from './AddRoomButton';
+import RoomList from './RoomList';
+
+class Homepage extends React.Component {
   state = {
     rooms: []
   };
@@ -28,15 +29,12 @@ class RoomList extends React.Component {
 
   render() {
     return (
-      <section className="RoomList">
-        <ul className="RoomList-list">
-          {this.state.rooms.map(room => {
-            return <RoomListItem key={room.id} room={room} />;
-          })}
-        </ul>
-      </section>
-    );
+      <div className="Homepage">
+        <AddRoomButton />
+        <RoomList rooms={this.state.rooms} />
+      </div>
+    )
   }
 }
 
-export default RoomList;
+export default Homepage;

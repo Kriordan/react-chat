@@ -1,0 +1,19 @@
+.MessageListItem {
+  padding: 10px;
+  position: relative;
+}
+
+.MessageListItem-time {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.MessageListItem-username,
+.MessageListItem-content {
+  margin: 0;
+}
+
+.MessageListItem-username {
+  font-weight: 700;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../styles/css/MessageListItem.css';
+
 class MessageListItem extends React.Component {
   render() {
     const message = this.props.message;
